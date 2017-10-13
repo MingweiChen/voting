@@ -1,52 +1,17 @@
 
 # WeVoting
 
-[![GitHub stars](https://img.shields.io/github/stars/elevenbeans/we-voting.svg)](https://github.com/elevenbeans/we-voting/stargazers)
-[![Build Status](https://travis-ci.org/elevenbeans/we-voting.svg?branch=master)](https://travis-ci.org/elevenbeans/we-voting)
-[![Coverage Status](https://coveralls.io/repos/github/elevenbeans/we-voting/badge.svg)](https://coveralls.io/github/elevenbeans/we-voting)
-[![GitHub release](https://img.shields.io/github/release/elevenbeans/we-voting.svg)](https://github.com/elevenbeans/we-voting/releases)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md#pull-requests)
-[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://mit-license.org)
-
 A voting APP.
 
-[View Demo online](https://we-voting-ele.herokuapp.com/) [看 Demo 请戳这里](https://we-voting-ele.herokuapp.com/)
-
-**[中文介绍请点击这里 🇨🇳](http://elevenbeans.github.io/2017/05/16/%E6%92%B8%E4%BA%86%E4%B8%80%E4%B8%AA%E6%8A%95%E7%A5%A8App/)**
-
-## Function
-
-+ Authenticated users can：
-  + create a poll with any number of possible items
-  + keep their polls and come back later to access them
-  + see the aggregate results of all polls（implemented using Charts）
-  + vote on every polls（one time on each poll）
-  + share all polls with their friends.
-
-+ Unauthenticated users just can：
-  + see the aggregate results of all polls（implemented using Charts）
-
-## Doing list
-
-+ Unit test (Doing)
-  + Coverage to 6% *-- updated 2017-05-22*
-  + Coverage to 29% *-- updated 2017-05-26*
-  + Coverage to 50% *-- updated 2017-06-04*
-  + Coverage to 73% *-- updated 2017-06-13*
-+ Code formate (Doing)
-+ ~~List page data pagination~~ (done by [@maokailu](https://github.com/maokailu))
-
-## Contributing
-
-**I am grateful to any one for contributing bugfixes, issues and improvements～**
 
 ## Setup
 
-+ Install node.js [Ubuntu/Mac](https://github.com/creationix/nvm) , [Windows](https://nodejs.org/en/download/)
++ Install node.js [Ubuntu/Mac](https://github.com/creationix/nvm) 
+
 
 + Clone this project
 	```
-	git clone https://github.com/elevenbeans/we-voting.git
+	git clone https://github.com/MingweiChen/voting.git
 	cd we-voting
 	```
 + Install local dependencies
@@ -62,17 +27,6 @@ For *nix (including Mac),
 
 Run `./start.sh`
 
-Or `export NODE_ENV=dev-HMR && ./start.sh` (enable HMR).
-
-For windows,
-
-	npm run bundle // compile and bundle js files
-
-	npm run start // start node server
-
-	npm run watch // watching changes
-
-**Don't forget to run [Mongodb](https://docs.mongodb.com/manual/mongo/) in your dev environment : )**
 
 ### Pre mode
 
@@ -86,17 +40,6 @@ Run `export NODE_ENV=production && ./start.sh`.
 
 Run `npm run build`
 
-## Test
-
-### Mocha + should
-
-Run `npm run test`.
-
-Or,
-
-Run `npm run cover` to see test case coverage.
-
-<img width="500px" src="https://raw.githubusercontent.com/elevenBeans/Grocery/master/unitTest.png" />
 
 ## Techstack overview
 
@@ -115,22 +58,6 @@ Run `npm run cover` to see test case coverage.
 + Module bundler and compiler: Webpack + Babel
 + Open source components: [react-d3-components](https://github.com/codesuki/react-d3-components)
 
-## Pages
-
-+ home page
-   + router: `/`
-   + example: `https://we-voting-ele.herokuapp.com/`
-+ list page
-   + router: `/list(/:name)`
-   + example: `https://we-voting-ele.herokuapp.com/list`
-
-+ detail page
-   + router: `/detail(/:id)`
-   + example: `https://we-voting-ele.herokuapp.com/detail/1494908221812`
-
-+ new page
-   + router: `/new`
-   + example: `https://we-voting-ele.herokuapp.com/new`
 
 ## Directories
 
