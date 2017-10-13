@@ -6,7 +6,10 @@ A voting APP.
 
 ## Setup
 
-+ Install node.js [Ubuntu/Mac](https://github.com/creationix/nvm) 
++ Install node.js
+  ```
+  brew install node
+  ```
 
 
 + Clone this project
