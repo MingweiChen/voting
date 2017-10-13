@@ -5,18 +5,18 @@ const Footer = () => (
         <p
         	style = {{"font-size":"14px"}}
         >
-        	© <br />
-					<iframe
+        	© FOR TEST:REACT NODE MONGO<br />
+					{/*<iframe
 						src="https://ghbtns.com/github-btn.html?user=elevenbeans&type=follow&count=true"
 						frameborder="0"
-						scrolling="0"
+					 	scrolling="0"
 						width="170px"
-						height="20px"
-						style={{
+					 	height="20px"
+					 	style={{
 							"border":"0"
-						}}
-					>
-					</iframe>
+					 	}}
+					 >
+					 </iframe> */}
 		  	</p>
       </footer>
   </div>

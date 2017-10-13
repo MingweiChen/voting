@@ -33,7 +33,7 @@ class Home extends Component {
 				  	>
 			      	<h1 style={{"font-size":"36px"}}>
 			      		Let's voting! <br />
-			      		<iframe
+			      		{/*<iframe
 			      			src = "https://ghbtns.com/github-btn.html?user=elevenbeans&repo=we-voting&type=star&count=true"
 			      			scrolling="0"
 			      			width="110px"
@@ -45,13 +45,12 @@ class Home extends Component {
 										"top": "12px"
 									}}
 			      		>
-			      		</iframe>
+			      		</iframe>*/}
 
 			      	</h1>
 			      	<p className="lead">
-								This voting app is built by @elevenbeans,
-								following the instructions of "Build a Voting App | Free Code Camp".<br />
-								Github Name: elevenBeans <br />
+								This voting app is built by @elevenbeans, and modified by Mingwei Chen to provide 
+								some insignt into web framework<br />
 							</p>
 			      	{!userInfo.name &&
 			      		<p>

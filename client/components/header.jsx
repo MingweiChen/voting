@@ -96,7 +96,7 @@ class Header extends Component {
 			            	{userInfo.name?userInfo.name:'Sign in'}
 			            	</a>
 			            </li>
-			            <li>
+			            {/*<li>
 			            	<a href="https://github.com/elevenBeans/WeVoting" target="_blank">
 			            		Github resposity
 			            	</a>
@@ -106,7 +106,7 @@ class Header extends Component {
 			            	<a href="http://bin11.cn" target="_blank">
 			            		About author
 			            	</a>
-			            </li>
+			            </li>*/}
 			            {userInfo.name &&
 			            	<li><a href = "" onClick={this.signOut} > Sign out </a></li>
 			            }
