@@ -12,7 +12,7 @@ A voting APP.
 + Clone this project
 	```
 	git clone https://github.com/MingweiChen/voting.git
-	cd we-voting
+	cd voting
 	```
 + Install local dependencies
 	```
