@@ -28,9 +28,9 @@ For *nix (including Mac),
 Run `./start.sh`
 
 
-## Build
+<!-- ## Build
 
-Run `npm run build`
+Run `npm run build` -->
 
 
 ## Techstack overview
