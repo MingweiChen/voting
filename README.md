@@ -28,14 +28,6 @@ For *nix (including Mac),
 Run `./start.sh`
 
 
-### Pre mode
-
-Run `export NODE_ENV=pre && ./start.sh`.
-
-### Production mode
-
-Run `export NODE_ENV=production && ./start.sh`.
-
 ## Build
 
 Run `npm run build`
